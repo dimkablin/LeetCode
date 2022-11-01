@@ -1,5 +1,5 @@
 package RansomNote;
 
-public class main {
+public class Solution {
 
 }
