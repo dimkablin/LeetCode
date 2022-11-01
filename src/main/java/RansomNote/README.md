@@ -6,25 +6,28 @@ Each letter in magazine can only be used once in ransomNote.
 
 Example 1:
 
-<code>Input: ransomNote = "a", magazine = "b"<br>
+```
+Input: ransomNote = "a", magazine = "b"<br>
 Output: false
-</code>
+```
+
 
 Example 2:
-
-<code>Input: ransomNote = "aa", magazine = "ab"<br>
+```
+Input: ransomNote = "aa", magazine = "ab"
 Output: false
-</code>
 
+```
 Example 3:
 
-<code>
+```
 Input: ransomNote = "aa", magazine = "aab"
 Output: true
-</code>
 
+```
 Constraints:
 
-<code>
-1 <= ransomNote.length, magazine.length <= 10^5<br></code>
+```
+1 <= ransomNote.length, magazine.length <= 10^5
+```
 ransomNote and magazine consist of lowercase English letters.
