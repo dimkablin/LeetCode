@@ -32,7 +32,7 @@ Output: 17
 
 
 RESULT
-```prototext
+```text
 Runtime: 1 ms, faster than 77.88% of Java online submissions for Richest Customer Wealth.
 Memory Usage: 43.4 MB, less than 41.82% of Java online submissions for Richest Customer Wealth.
 ```
