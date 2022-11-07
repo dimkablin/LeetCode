@@ -27,3 +27,13 @@ The number of soldiers in each row is:
 - Row 4: 5 
 The rows ordered from weakest to strongest are [2,0,3,1,4].
 ```
+
+Result
+
+```text
+Runtime: 3 ms, faster than 78.95% of Java online submissions for The K Weakest 
+Rows in a Matrix.
+
+Memory Usage: 48.7 MB, less than 45.89% of Java online submissions for The K 
+Weakest Rows in a Matrix.
+```
