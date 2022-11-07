@@ -34,3 +34,13 @@ Example 3:
 Input: num = 123
 Output: 12
 ```
+
+
+Result
+```
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps 
+to Reduce a Number to Zero.
+
+Memory Usage: 38.9 MB, less than 98.30% of Java online submissions for Number of 
+Steps to Reduce a Number to Zero.
+```
