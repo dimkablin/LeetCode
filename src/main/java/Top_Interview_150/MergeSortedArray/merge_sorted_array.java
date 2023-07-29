@@ -1,4 +1,4 @@
-package Top_Interview_150;
+package Top_Interview_150.MergeSortedArray;
 
 class Solution {
     public static void main(String[] args) {
