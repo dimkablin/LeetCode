@@ -2,10 +2,12 @@ package Top_Interview_150.RemoveDuplicatesFromSortedArray;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
-
+        Solution solution = new Solution();
+        int k = solution.removeDuplicates(new int[]{1});
+        System.out.println(k);
     }
 
-    class Solution {
+    static class Solution {
         public int removeDuplicates(int[] nums) {
             int u_num = 1;
 
