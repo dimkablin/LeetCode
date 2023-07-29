@@ -5,24 +5,17 @@ public class RemoveDuplicates {
 
     }
 
-    static class Solution {
+    class Solution {
         public int removeDuplicates(int[] nums) {
-            if (nums.length == 1) return 1;
-
-            int d_num = 0, index = 0;
+            int u_num = 1;
 
             for (int i = 1; i < nums.length; ++i) {
-                if (nums[i] == nums[index]) {
-                    nums[i-d_num] = nums[i];
-                    ++d_num;
-                } else {
-                    ++index;
-                    nums[index] = nums[i];
+                if (nums[i] != nums[i-1]) {
+                    nums[u_num++] = nums[i];
                 }
             }
 
-
-            return nums.length - d_num;
+            return u_num;
         }
     }
 }
