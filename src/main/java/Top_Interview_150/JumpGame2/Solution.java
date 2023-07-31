@@ -6,18 +6,15 @@ class Solution {
     public int jump(int[] nums) {
         if (nums.length == 1) return 0;
 
-        int[] jumps = new int[nums.length];
-        Arrays.fill(jumps, Integer.MAX_VALUE);
-        jumps[0] = 0;
-
-        for (int i = 1; i < nums.length; ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (nums[j] + j >= i)
-                    if (jumps[i] > jumps[j] + 1)
-                        jumps[i] = jumps[j] + 1;
-            }
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] = nums[i] + i > nums[i-1] ? nums[i] + i : nums[i-1];
         }
 
-        return jumps[jumps.length-1];
+        int i = 1, ind = 0;
+
+        while ((ind = nums[ind]) < nums.length-1)
+            i++;
+
+        return i;
     }
 }
