@@ -1,8 +1,7 @@
-package DungeonGame;
+package Top_Interview_75.DungeonGame;
 
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class Solution {
 

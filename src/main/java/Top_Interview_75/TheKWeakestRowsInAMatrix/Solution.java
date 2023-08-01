@@ -1,4 +1,4 @@
-package TheKWeakestRowsInAMatrix;
+package Top_Interview_75.TheKWeakestRowsInAMatrix;
 
 public class Solution {
     public static void main(String[] args) {

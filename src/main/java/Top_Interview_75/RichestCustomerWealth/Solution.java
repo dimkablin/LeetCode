@@ -1,8 +1,4 @@
-package RichestCustomerWealth;
-
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+package Top_Interview_75.RichestCustomerWealth;
 
 public class Solution {
 

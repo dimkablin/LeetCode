@@ -1,4 +1,4 @@
-package NumberOfStepsToReduceANumberToZero;
+package Top_Interview_75.NumberOfStepsToReduceANumberToZero;
 
 class Solution {
     public static void main(String[] args) {
